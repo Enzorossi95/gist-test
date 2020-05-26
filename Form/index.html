@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#">
+        <label for="campo_nombre">Nombre</label>
+        <input type="text" id="campo_nombre" name="nombre" placeholder="Ingrese su nombre"></br>
+        </br>
+
+        <label for="campo_apellido">Apellido</label>
+        <input type="text" id="campo_apellido" name="apellido" placeholder="Ingrese su apellido"></br>
+        </br>
+
+        <label for="campo_correo">Email</label>
+        <input type="email" id="campo_correo" name="correo" placeholder="Ingrese su email"></br>
+        </br>
+
+        <label for="select_pack">Pack</label>
+        <select name="pack" id="select_pack">
+            <optgroup label="Ternera">
+                <option value="pack1">Burguer + Papas</option>
+                <option value="pack2">Burguer + Papas + Gaseosa</option>
+            </optgroup>
+            <optgroup label="Vegetariana">
+                <option value="pack3">Burguer + Papas</option>
+                <option value="pack4">Burguer + Papas + Gaseosa</option>
+            </optgroup>
+            <optgroup label="Cerdo">
+                <option value="pack5">Burguer + Papas</option>
+                <option value="pack6">Burguer + Papas + Gaseosa</option>
+            </optgroup>
+        </select>
+        </br>
+        </br>
+        <label for="topping_tomate">
+            Tomate
+            <input type="checkbox" id="topping_tomate" name="topping" value="tomates">
+        </label>
+        <label for="topping_lechuga">
+            Lechuga
+            <input type="checkbox" id="topping_lechuga" name="topping" value="lechuga">
+        </label>
+        <label for="topping_salsa">
+            Sals Hommies
+            <input type="checkbox" id="topping_salsa" name="topping" value="salsa">
+        </label>
+        </br>
+        </br>
+        </br>
+
+        <input type="submit" value="TENGO HAMBRE">
+
+    </form>
+
+</body>
+
+</html>
