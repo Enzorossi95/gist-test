@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+}
+
+.container {
+    width: 70%;
+    font-family: Arial;
+    display: block;
+}
+
+.titulo {
+    color: #701d1d;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: black;
+}
+
+.row {
+    padding: 10px;
+    display: flex;
+}
+
+.col {
+    flex: 50%;
+}
+
+.textareainForm {
+    margin: 5px;
+    width: 852px;
+    height: 85px;
+    margin-left: 10px;
+}
+
+.label-textarea {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    text-decoration: solid;
+}
+
+input {
+    padding: 5px;
+    width: 70%;
+    border-style: solid;
+}
