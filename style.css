@@ -7,7 +7,7 @@ body {
 }
 
 h1+h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-decoration: solid;
 }
 
@@ -19,4 +19,19 @@ footer {
     height: 40px;
     color: white;
     text-align: center;
+}
+
+.home {
+    float: right;
+    color: #333;
+}
+
+.video-flan {
+    float: right;
+}
+
+.tittle {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: solid;
 }
